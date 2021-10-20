@@ -13,6 +13,12 @@
         <h2 class="text-center mb-5">Form Validasi</h2>
     <form method="post">
         <div class="row mb-3">
+            <label for="inputNamaLengkap" class="col-sm-4 col-form-label">Foto Kamu</label>
+            <div class="col-sm-8">
+              <input type="file" class="form-control" id="foto" accept="image/png, image/gif, image/jpeg" required>
+            </div>
+          </div>
+        <div class="row mb-3">
           <label for="inputNamaLengkap" class="col-sm-4 col-form-label">Nama Lengkap</label>
           <div class="col-sm-8">
             <input type="text" class="form-control" id="namaLengkap"  minlength="3" required>
